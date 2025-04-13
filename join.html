@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our Gym</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+    <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+        <h2 class="text-2xl font-bold text-center mb-6">Membership Form</h2>
+        
+        <form action="payment.html" method="POST">
+            <label class="block mb-2 font-semibold">Full Name</label>
+            <input type="text" class="w-full p-2 border rounded-lg mb-4" placeholder="Enter your name" required>
+
+            <label class="block mb-2 font-semibold">Email</label>
+            <input type="email" class="w-full p-2 border rounded-lg mb-4" placeholder="Enter your email" required>
+
+            <label class="block mb-2 font-semibold">Phone</label>
+            <input type="tel" class="w-full p-2 border rounded-lg mb-4" placeholder="Enter your phone" required>
+
+            <label class="block mb-2 font-semibold">Membership Plan</label>
+            <select class="w-full p-2 border rounded-lg mb-4" required>
+                <option value="monthly">Monthly - $50</option>
+                <option value="quarterly">Quarterly - $140</option>
+                <option value="yearly">Yearly - $500</option>
+            </select>
+
+            <button type="submit" class="w-full bg-red-600 text-white py-2 rounded-lg hover:bg-red-700">
+                Proceed to Payment
+            </button>
+        </form>
+    </div>
+
+</body>
+</html>
