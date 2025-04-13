@@ -42,4 +42,5 @@ Ensured fast loading, clean code, and accessibility.
 Made sure it's easy to update and extend as I build new skills or projects.
 
 # OUTPUT
+![Image](https://github.com/user-attachments/assets/8ebf0844-67c8-45c2-99c3-510e58fa8217)
 
